@@ -1,0 +1,30 @@
+.imglogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px  5px 5px 5px;
+}
+.logo-nacc{
+    height: 100px;
+}
+@media(width <= 560px){
+    .logo{
+        width: 220px;
+        height: 70px;
+    }
+}
+@media(width <= 330px){
+    .imglogo{
+       display: block;
+       justify-content: center;
+       align-items: center;
+    }
+    .logo-nacc{
+        height: 70px;
+        width: 70px;
+    }
+    .logo{
+        width: 190px;
+    }
+  
+}

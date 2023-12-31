@@ -1,0 +1,6 @@
+.welcomenote{
+    display: flex;
+    justify-content: right;
+    background-color: #7defbe;
+    padding: 10px;
+}
